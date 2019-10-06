@@ -39,13 +39,11 @@ NOTE: the algorithm works correctly only when marking vertices with natural numb
 Analysis:
 
 Pessimistic complexity of the algorithm - n:
-isTree () - O (n) because inside the method we use the recursive isCyclic () method, besides, we fill the visited [] array with
-false values and finally check the presence of true inside vivsited [], which gives the O (n) complexity
-isCyclic () - O (n) because inside the method we use only the dfs algorithm, whose complexity is O (n)
+isTree () - O (n) because inside the method we use the recursive isCyclic () method, besides, we fill the visited [] array with false values and finally check the presence of true inside vivsited [], which gives the O (n) complexity;
+isCyclic () - O (n) because inside the method we use only the dfs algorithm, whose complexity is O (n);
 getSubGraphWeight () - O (n) because inside the method we use the similarity of the dfs (O (n)) algorithm with which we visit
-each of the children of the main vertex
+each of the children of the main vertex;
 constructor Main () - O (n) because inside the method we create a list of neighbors for each vertex, nothing more
-  
 inside the main () method, the biggest part of the work is reading data from files, the remaining part turns on the process of
 checking the graph and displays the received data on the screen we find that the pessimistic complexity of algorithms is n.
 Memory complexity - at most n^2:
