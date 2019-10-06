@@ -48,5 +48,5 @@ inside the main () method, the biggest part of the work is reading data from fil
 checking the graph and displays the received data on the screen we find that the pessimistic complexity of algorithms is n.
 Memory complexity - at most n^2:
 in my case, we have 2 variants of data structures - a list of letters and an array of letters, i.e. in both cases, with the 
-worst data, the complexity will be 𝑛2, (e.g. Linked List (S (n)) * array (S (n)) = S (n^2))
+worst data, the complexity will be n^2, (e.g. Linked List (S (n)) * array (S (n)) = S (n^2))
 
