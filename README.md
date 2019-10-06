@@ -21,8 +21,8 @@ will be invoked using the isTree method and will be performed as follows: first,
 created, in which all visited vertices will be marked (from the beginning it is filled with false meanings); therefore the
 isCyclic method is called, which in turn checks, using the dfs algorithm, a graph for the presence of cyclic connections,
 taking in the arguments the table of visited vertices, the index of the next vertex and the parent's index, marking the next
-vertex as visited, calling recursively for all "children "The next vertex is the isCyclic method and checking if there is
-another" child "" parent "of the unit visited at a given moment (if it is not - returns true and we can come to the conclusion
+vertex as visited, calling recursively for all "children"The next vertex is the isCyclic method and checking if there is
+another "child" "parent"of the unit visited at a given moment (if it is not - returns true and we can come to the conclusion
 that we encountered a cycle); finally if isCyclic returned false - we check if there are unvisited vertices in the visited []
 array (if it is not - false is returned and it is assumed that the graph is not a tree). If the graph is a tree - the weight
 of all subtrees is checked using the getSubGraphWeight method, which works as follows: for the first time the method run is
