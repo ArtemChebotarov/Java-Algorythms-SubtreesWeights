@@ -34,6 +34,7 @@ the program outputs the results in the console in the form: if the graph is a tr
 IS weight_maximum weight_minimum, 
 if the graph is not a tree:
 NO
+
 NOTE: the algorithm works correctly only when marking vertices with natural numbers from 1 in ascending order
 
 Analysis:
